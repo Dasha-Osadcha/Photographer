@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scanable=0">
+    <title>Photographer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+<header class="header">
+    <div class="header__container container">
+        <div class="header__logo">
+            <div class="header__logo-circle">
+                <span class="header__logo-title">247od</span>
+            </div>
+        </div>
+        
+        <div class="header__links">
+            <nav class="header__menu">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a href="#" data-goto=".content-w" class="header__link">Wedding</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" data-goto=".content-p" class="header__link">Portrait</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" data-goto=".content-b" class="header__link">Beach</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" data-goto=".content-w" class="header__link">Miami</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" data-goto=".price" class="header__link">Price</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="sidebar__socials">
+                <ul class="socials">
+                    <li class="socials__item"> 
+                        <a href="mailto:vneplena@gmail.com" target="_blank" class="socials__link mail">
+                            <i class="fas fa-envelope"></i></a>
+                    </li>
+                    <li class="socials__item">
+                        <a href="https://www.instagram.com/247od/" target="_blank" class="socials__link insta">
+                            <i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="socials__item">
+                        <a href="tel:1234567" class="socials__link phone">
+                            <i class="fas fa-phone"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="menu__icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</header>        <section class="fullscreen-intro">
+            <div class="fullscreen-intro__left">
+                <div class="left-content">
+                    <div class="left-content__promo">
+                        <div class="left-content__circle">
+                            <h1 class="left-content__title">247od</h1>
+                        </div>
+                    </div>
+                    <div class="left-content__text">
+                        <span>Professional photographer in Miami.</span>
+                        <p>
+                            I offer a wide range of photo sessions: portraits, family shoots, weddings, love stories, children sessions, maternity, newborns, business portraits, events, and commercial projects.
+                        </p>
+                        <p>
+                            I help you feel comfortable in front of the camera, guide you with posing for natural and authentic shots.
+                        </p>
+                        <p>
+                            I work with natural light and soft retouching.
+                        </p>
+                        <p>
+                            You don&apos;t have to be a model — just be yourself.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="fullscreen-intro__right">
+                <div class="fullscreen-intro__photo-container">
+                    <img src="/img/ava.png" alt="">
+                </div>
+                <audio id="cameraSound" src="/sounds/camera-shutter.mp3" preload="auto"></audio>
+            </div>
+        </section>
+        <main class="main">
+            <section class="content-w" id="content-w">
+                <div class="container">
+                    <div class="content-w__gallery">
+                        <h3 class="content-w__title section-title">Wedding</h3>
+                        <div class="dot-underline-w"></div>
+                        <div class="underline-w"></div>
+                        <div class="gallery-w__items">
+                            <div class="gallery-w__item gallery__item">
+                                <a href="#" class="gallery-w__image">
+                                    <img src="/img/wedding/w1.JPG" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-w__item gallery__item">
+                                <a href="#" class="gallery-w__image">
+                                    <img src="/img/wedding/w2.JPG" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-w__item gallery__item">
+                                <a href="#" class="gallery-w__image">
+                                    <img src="/img/wedding/w3.JPG" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-w__item gallery__item">
+                                <a href="#" class="gallery-w__image">
+                                    <img src="/img/wedding/w7.JPG" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-w__item gallery__item">
+                                <a href="#" class="gallery-w__image">
+                                    <img src="/img/wedding/w5.JPG" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-w__item gallery__item">
+                                <a href="#" class="gallery-w__image">
+                                    <img src="/img/wedding/w6.JPG" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-w__item gallery__item">
+                                <a href="#" class="gallery-w__image">
+                                    <img src="/img/wedding/w4.JPG" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-w__item gallery__item">
+                                <a href="#" class="gallery-w__image">
+                                    <img src="/img/wedding/w8.JPG" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-w__item gallery__item">
+                                <a href="#" class="gallery-w__image">
+                                    <img src="/img/wedding/w9.JPG" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-w__item gallery__item">
+                                <a href="#" class="gallery-w__image">
+                                    <img src="/img/wedding/w10.JPG" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="modal" id="imageModal">
+                            <span class="modal__close">&times;</span>
+                            <div class="swiper-container modal-swiper">
+                                <div class="swiper-wrapper">
+                                    <!-- Слайды будут добавляться через JS -->
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <button class="zoom-btn">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="content-p" id="content-p">
+                <div class="container">
+                    <div class="content-p__gallery">
+                        <h3 class="content-p__title section-title">Portrait</h3>
+                        <div class="dot-underline-p"></div>
+                        <div class="underline-p"></div>
+                        <div class="gallery-p__items">
+                            <div class="gallery-p__item gallery__item">
+                                <a href="#" class="gallery-p__image">
+                                    <img src="/img/portrait/pe35.JPG" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-p__item gallery__item">
+                                <a href="#" class="gallery-p__image">
+                                    <img src="/img/portrait/p2.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-p__item gallery__item">
+                                <a href="#" class="gallery-p__image">
+                                    <img src="/img/portrait/p3.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-p__item gallery__item">
+                                <a href="#" class="gallery-p__image">
+                                    <img src="/img/portrait/p4.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-p__item gallery__item">
+                                <a href="#" class="gallery-p__image">
+                                    <img src="/img/portrait/p5.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-p__item gallery__item">
+                                <a href="#" class="gallery-p__image">
+                                    <img src="/img/portrait/p6.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-p__item gallery__item">
+                                <a href="#" class="gallery-p__image">
+                                    <img src="/img/portrait/p7.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-p__item gallery__item">
+                                <a href="#" class="gallery-p__image">
+                                    <img src="/img/portrait/p8.JPG" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-p__item gallery__item">
+                                <a href="#" class="gallery-p__image">
+                                    <img src="/img/portrait/p9.JPG" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-p__item gallery__item">
+                                <a href="#" class="gallery-p__image">
+                                    <img src="/img/portrait/pe19.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-p__item gallery__item">
+                                <a href="#" class="gallery-p__image">
+                                    <img src="/img/portrait/pe27.JPG" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-p__item gallery__item">
+                                <a href="#" class="gallery-p__image">
+                                    <img src="/img/portrait/pe29.JPG" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-p__item gallery__item">
+                                <a href="#" class="gallery-p__image">
+                                    <img src="/img/portrait/p10.JPG" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-p__item gallery__item">
+                                <a href="#" class="gallery-p__image">
+                                    <img src="/img/portrait/p1.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="content-b" id="content-b">
+                <div class="container">
+                    <div class="content-b__gallery">
+                        <h3 class="content-b__title section-title">Beach</h3>
+                        <div class="dot-underline-b"></div>
+                        <div class="underline-b"></div>
+                        <div class="gallery-b__items">
+                            <div class="gallery-b__item gallery__item">
+                                <a href="#" class="gallery-b__image">
+                                    <img src="/img/beach/b9.JPG" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-b__item gallery__item">
+                                <a href="#" class="gallery-b__image">
+                                    <img src="/img/beach/b2.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-b__item gallery__item">
+                                <a href="#" class="gallery-b__image">
+                                    <img src="/img/beach/b3.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-b__item gallery__item">
+                                <a href="#" class="gallery-b__image">
+                                    <img src="/img/beach/b6.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-b__item gallery__item">
+                                <a href="#" class="gallery-b__image">
+                                    <img src="/img/beach/b5.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-b__item gallery__item">
+                                <a href="#" class="gallery-b__image">
+                                    <img src="/img/beach/b1.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-b__item gallery__item">
+                                <a href="#" class="gallery-b__image">
+                                    <img src="/img/beach/b7.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-b__item gallery__item">
+                                <a href="#" class="gallery-b__image">
+                                    <img src="/img/beach/b8.JPG" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-b__item gallery__item">
+                                <a href="#" class="gallery-b__image">
+                                    <img src="/img/beach/b4.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-b__item gallery__item">
+                                <a href="#" class="gallery-b__image">
+                                    <img src="/img/beach/b10.JPG" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-b__item gallery__item">
+                                <a href="#" class="gallery-b__image">
+                                    <img src="/img/beach/b11.JPG" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-b__item gallery__item">
+                                <a href="#" class="gallery-b__image">
+                                    <img src="/img/beach/b13.JPG" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-b__item gallery__item">
+                                <a href="#" class="gallery-b__image">
+                                    <img src="/img/beach/b12.JPG" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-b__item gallery__item">
+                                <a href="#" class="gallery-b__image">
+                                    <img src="/img/beach/b14.JPG" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="content-m" id="content-m">
+                <div class="container">
+                    <div class="content-m__gallery">
+                        <h3 class="content-m__title section-title">Tomer Lawton</h3>
+                        <div class="dot-underline-m"></div>
+                        <div class="underline-m"></div>
+                        <div class="gallery-m__items">
+                            <div class="gallery-m__item gallery__item">
+                                <a href="#" class="gallery-m__image">
+                                    <img src="/img/men/m1.PNG" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-m__item gallery__item">
+                                <a href="#" class="gallery-m__image">
+                                    <img src="/img/men/m3.PNG" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-m__item gallery__item">
+                                <a href="#" class="gallery-m__image">
+                                    <img src="/img/men/m2.PNG" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-m__item gallery__item">
+                                <a href="#" class="gallery-m__image">
+                                    <img src="/img/men/m4.PNG" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-m__item gallery__item">
+                                <a href="#" class="gallery-m__image">
+                                    <img src="/img/men/m5.PNG" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-m__item gallery__item">
+                                <a href="#" class="gallery-m__image">
+                                    <img src="/img/men/m6.JPG" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="content-ms" id="content-ms">
+                <div class="container">
+                    <div class="content-ms__gallery">
+                        <h3 class="content-ms__title section-title">Lang</h3>
+                        <div class="dot-underline-ms"></div>
+                        <div class="underline-ms"></div>
+                        <div class="gallery-ms__items">
+                            <div class="gallery-ms__item gallery__item">
+                                <a href="#" class="gallery-ms__image">
+                                    <img src="/img/mood sweet/ms1.PNG" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-ms__item gallery__item">
+                                <a href="#" class="gallery-ms__image">
+                                    <img src="/img/mood sweet/ms2.PNG" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-ms__item gallery__item">
+                                <a href="#" class="gallery-ms__image">
+                                    <img src="/img/mood sweet/ms3.PNG" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-ms__item gallery__item">
+                                <a href="#" class="gallery-ms__image">
+                                    <img src="/img/mood sweet/ms4.PNG" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery-ms__item gallery__item">
+                                <a href="#" class="gallery-ms__image">
+                                    <img src="/img/mood sweet/ms5.PNG" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="price">
+                <div class="container">
+                    <div class="price__content">
+                        <div class="dot-underline-price"></div>
+                        <div class="underline-price"></div>
+                        <div class="price__photo">
+                            <img src="/img/canon.png" alt="">
+                        </div>
+                        <div class="price__info">
+                            <h3 class="section-title section-title_price">Price</h3>
+                            <div class="price__info-cards">
+                                <div class="card">
+                                    <div class="card__title">Solo Package</div>
+                                    <div class="card__content">
+                                        <div class="card__left">
+                                            <div class="card__promo">Standard</div>
+                                            <div class="card__price">300</div>
+                                            <ul class="card__services">
+                                                <li>1 hour</li>
+                                                <li>1 location</li>
+                                                <li>7 high quality images</li>
+                                                <li>posing, outfit</li>
+                                            </ul>
+                                        </div>
+                                        <div class="card__right">
+                                            <div class="card__promo">Deluxe</div>
+                                            <div class="card__price">400</div>
+                                            <ul class="card__services">
+                                                <li>1 hour</li>
+                                                <li>2 locations</li>
+                                                <li>10 high quality images</li>
+                                                <li>posing, outfit</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card__title">Double Package</div>
+                                    <div class="card__content">
+                                        <div class="card__left">
+                                            <div class="card__promo">Standard</div>
+                                            <div class="card__price">500</div>
+                                            <ul class="card__services">
+                                                <li>2 hours</li>
+                                                <li>2 locations</li>
+                                                <li>12 high quality images</li>
+                                                <li>posing, outfit</li>
+                                            </ul>
+                                        </div>
+                                        <div class="card__right">
+                                            <div class="card__promo">Deluxe</div>
+                                            <div class="card__price">700</div>
+                                            <ul class="card__services">
+                                                <li>2 hours</li>
+                                                <li>2 locations</li>
+                                                <li>15 high quality images</li>
+                                                <li>posing, outfit</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card__title">Event Package</div>
+                                    <div class="card__content">
+                                        <div class="card__left">
+                                            <div class="card__promo">Standard</div>
+                                            <div class="card__price">800</div>
+                                            <ul class="card__services">
+                                                <li>3 hours</li>
+                                                <li>3 locations</li>
+                                                <li>18 high quality images</li>
+                                                <li>posing, outfit</li>
+                                            </ul>
+                                        </div>
+                                        <div class="card__right">
+                                            <div class="card__promo">Deluxe</div>
+                                            <div class="card__price">1000</div>
+                                            <ul class="card__services">
+                                                <li>3 hours</li>
+                                                <li>4 locations</li>
+                                                <li>25 high quality images</li>
+                                                <li>posing, outfit</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="container">
+
+                </div>
+            </footer>
+        </main>
+    </div>
+    
+    
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
